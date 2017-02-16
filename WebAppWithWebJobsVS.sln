@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppWithWebJobsVS", "WebAppWithWebJobsVS\WebAppWithWebJobsVS.csproj", "{DEC9A0C1-35E9-4019-8EF8-853F194A4E7D}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyContinuousWebJob", "MyContinuousWebJob\MyContinuousWebJob.csproj", "{2BA3C371-6BCA-44E5-B766-F7CD02AAC9A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyScheduledWebJob", "MyScheduledWebJob\MyScheduledWebJob.csproj", "{1B034B9B-64A2-406C-B0A6-E55C50D61A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{09F45A58-E9C8-40F0-94BB-239FC4B2B8A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1B034B9B-64A2-406C-B0A6-E55C50D61A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B034B9B-64A2-406C-B0A6-E55C50D61A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B034B9B-64A2-406C-B0A6-E55C50D61A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F45A58-E9C8-40F0-94BB-239FC4B2B8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F45A58-E9C8-40F0-94BB-239FC4B2B8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F45A58-E9C8-40F0-94BB-239FC4B2B8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F45A58-E9C8-40F0-94BB-239FC4B2B8A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
