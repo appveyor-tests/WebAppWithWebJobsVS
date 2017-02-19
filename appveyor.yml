@@ -1,7 +1,6 @@
 version: 1.0.{build}
 install:
-- cmd: nuget restore
-- ps: write-host "attach debugger"; sleep 20
+- nuget restore
 build:
  # publish_wap: true
   publish_wap_xcopy: true
