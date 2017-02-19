@@ -1,6 +1,11 @@
 version: 1.0.{build}
+
+environment:
+  APPVEYOR_WAP_WEBJOBS_PACKAGING_AS_SOLUTION: true #enable old behavior
+
 install:
 - nuget restore
+
 build:
  # publish_wap: true
   publish_wap_xcopy: true
