@@ -1,7 +1,7 @@
 version: 1.0.{build}
 
-environment:
-  APPVEYOR_WAP_WEBJOBS_PACKAGING_AS_SOLUTION: true #enable old behavior
+#environment:
+#  APPVEYOR_WAP_WEBJOBS_PACKAGING_AS_SOLUTION: true #enable old behavior
 
 install:
 - nuget restore
