@@ -7,6 +7,6 @@ install:
 - nuget restore
 
 build:
- # publish_wap: true
+  publish_wap: true
   publish_wap_xcopy: true
   verbosity: minimal
